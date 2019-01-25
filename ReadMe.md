@@ -3,13 +3,13 @@
                 :resetData="resetData"
               ></addressSelect>
 
-//val£¬Êä³öµÄÊÇÑ¡ÖĞµÄÖµ
+//valï¼Œè¾“å‡ºçš„æ˜¯é€‰ä¸­çš„å€¼
  selected(val) {
       console.log(val);
     },
 
 
-³õÊ¼»¯   
+é‡ç½®åœ°å€å€¼   
 this.resetData = true;
     setTimeout(() => {
          this.resetData = false;
